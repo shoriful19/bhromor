@@ -1,10 +1,11 @@
 // Main appp
 
+import HeaderBar from './components/headerComp/headerComponent';
+
 const App = () => {
   return (
     <div className="App">
-      <p> Hello react 
-      </p>
+      <HeaderBar />
     </div>
   );
 }

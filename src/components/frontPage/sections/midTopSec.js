@@ -2,8 +2,8 @@
 
 const MidTopComp = () => {
 	return(
-		<div className="grid grid-cols-2 justify-center p-32">
-			<section className="bg-green-400" style={imgContainerCss}>
+		<div className="grid grid-cols-2 justify-center">
+			<section className="bg-gradient-to-r from-bg-top-hdr-bar-left to-bg-top-hdr-bar-right" style={imgContainerCss}>
 			<img src="https://images.unsplash.com/photo-1573166364902-982ae58a27ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
 			className="object-contain transform translate-x-4 -translate-y-4"
 			style={imgCss}/>

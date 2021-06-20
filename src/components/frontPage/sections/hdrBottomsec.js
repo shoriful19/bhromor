@@ -1,15 +1,18 @@
 // Header Bottom Section
 import CardComp from '../cardsComp/cardComponent';
 import MidTopComp from './midTopSec';
+import TopMidComponent from './topMidSec';
+import MidImgComponent from './midImgSec';
+import TestmCardComponent from '../cardsComp/testimonialCardComp';
 
 const HeaderBottomSection = () => {
 	return(
 		<div>
-			<div className="bg-green-400 pt-4">
+			<div className="bg-gradient-to-r from-bg-top-hdr-bar-left to-bg-top-hdr-bar-right text-white pt-4">
 				<div className="flex">
 					<div className="flex-grow pt-10 text-center">
-						<p className="text-4xl tracking-wider">SELL OUR PRODUCTS</p>
-						<p className="text-4xl tracking-wider">TAKE THE PROFIT</p>
+						<p className="text-4xl tracking-wider font-bold">SELL OUR PRODUCTS</p>
+						<p className="text-4xl tracking-wider font-bold">TAKE THE PROFIT</p>
 						<small>Sell our products at your own shop</small>
 					</div>
 					<div className="flex-none">
@@ -17,8 +20,13 @@ const HeaderBottomSection = () => {
 					</div>
 				</div>
 			</div>
-		<CardComp/>
-		<MidTopComp />
+			<CardComp/>
+			<main className="p-32">
+				<MidTopComp />
+				<TopMidComponent />
+				<MidImgComponent />
+				<TestmCardComponent />
+			</main>
 		</div>
 		)
 }

@@ -1,7 +1,8 @@
 // Card component for front page top
 
 const cardCss = {
-	background: "linear-gradient(to bottom, #34d399 50%, #ffffff 50%)",
+	background: "",
+	background: "linear-gradient(to bottom,rgba(255, 255, 0, 0) 50%, rgba(255, 255, 255, 1) 50%), linear-gradient(to right, #049cbc, #43d7b5)",
 }
 
 const CardComp = () => {

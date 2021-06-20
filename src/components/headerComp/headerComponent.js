@@ -2,7 +2,7 @@
 
 const HeaderBar = () => {
 	return(
-		<div className="flex text-right h-16 bg-green-400 border-b border-gray-300">
+		<div className="flex text-right text-white h-16 border-b border-gray-300 bg-gradient-to-r from-bg-top-hdr-bar-left to-bg-top-hdr-bar-right">
 			<div className="flex-none w-32 h-16 pt-4 pl-8">
 				<div className="inline">
 					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" className="fill-current text-gray-100 bi bi-bootstrap-fill" viewBox="0 0 16 16">
